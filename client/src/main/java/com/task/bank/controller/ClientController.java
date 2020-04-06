@@ -18,16 +18,6 @@ public class ClientController {
 
     ServerService serverService;
 
-    @Deprecated
-    @GetMapping("/test")
-    public String test() {
-        return "HELLO FORM CLIENT";
-    }
-
-    @GetMapping("/connect")
-    public String connect() {
-        return serverService.getServerHello();
-    }
     @GetMapping(value = "/file", produces = MediaType.APPLICATION_XML_VALUE)
     public @ResponseBody byte[] getFileFromServer() {
         return serverService.getServerFile();
