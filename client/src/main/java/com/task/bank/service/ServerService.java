@@ -14,11 +14,6 @@ import org.springframework.stereotype.Service;
 public class ServerService {
     ServerApplicationClient serverApplicationClient;
 
-    public String getServerHello() {
-        log.info("sending request to server");
-        return serverApplicationClient.getHelloFromServer();
-    }
-
     public byte[] getServerFile() {
         log.info("sending request to server");
         return serverApplicationClient.getXmlFileFromServer();
