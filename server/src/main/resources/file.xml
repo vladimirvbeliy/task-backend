@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paymentlists>
+    <payments>
+        <id>1264</id>
+        <opfu_code>15445</opfu_code>
+        <opfu_name>Управління ПФУ в м. Білгород-Дністровському</opfu_name>
+        <date_cr>30092015</date_cr>
+        <MFO_filia>365874</MFO_filia>
+        <filia_num>17548</filia_num>
+        <filia_name>Львівська філія банку</filia_name>
+        <full_sum>625435</full_sum>
+        <full_lines>5</full_lines>
+    </payments>
+    <payments>
+        <id>1264</id>
+        <opfu_code>15445</opfu_code>
+        <opfu_name>Управління ПФУ в м. Білгород-Дністровському</opfu_name>
+        <date_cr>30092015</date_cr>
+        <MFO_filia>365874</MFO_filia>
+        <filia_num>17548</filia_num>
+        <filia_name>Львівська філія банку</filia_name>
+        <full_sum>625435</full_sum>
+        <full_lines>5</full_lines>
+    </payments>
+    <payments>
+        <id>1265</id>
+        <opfu_code>16587</opfu_code>
+        <opfu_name>Управління ПФУ в м. Одесса</opfu_name>
+        <date_cr>30092015</date_cr>
+        <MFO_filia>365874</MFO_filia>
+        <filia_num>17548</filia_num>
+        <filia_name>Львівська філія банку</filia_name>
+        <full_sum>947800</full_sum>
+        <full_lines>8</full_lines>
+    </payments>
+</paymentlists>
