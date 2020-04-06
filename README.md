@@ -5,7 +5,9 @@ DB used - MariaDB
 to setup DB:
 
 cd db-docker
+
 docker build -t test .
+
 docker run -p 3308:3306 test
 
 DT payments will be created automatically by flyway script on client ms start
